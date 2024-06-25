@@ -1,2 +1,2 @@
 // config.js
-var actionLink = "https://script.google.com/macros/s/AKfycbwAxG4DSGseXpfgHNcLE3lRFBMqx3x9CN9R01ysaWiNd1n2L4OPksjd738Ezjpw4UP7rA/exec ";
+var actionLink = "https://script.google.com/u/0/home/projects/15eRE98t_pjJqXtH2FKhnER0QL_gYBoci-GVXmOpc_C5VX2KGCCKJZ4nT/edit";
