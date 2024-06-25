@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acting</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <!-- https://fonts.google.com/ -->
+    <link rel="stylesheet" href="eventcss/eventbootstrap.min.css">
+    <link rel="stylesheet" href="eventcss/eventcatalog.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <style>
+        .overlay {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index: 2;
+            background: black;
+            opacity: 0.5;
+        }
+
+        .register {
+            width: 200px;
+            height: 50px;
+            background-color: crimson;
+            color: white;
+            font-weight: bold;
+            border-radius: 30px;
+            border: none;
+        }
+
+        .register:hover {
+            background-color: rgb(136, 11, 36);
+        }
+
+        @media(min-width:768px){
+            .nrutya{
+                display: flex; 
+                height:425px;
+                width:425px;
+            }
+            .brand-text{
+                font-size:8vh;
+            }
+        }
+        @media(max-width:576px){
+            #tm-video-container{
+                width : 100%;
+                height:auto;
+            }
+            #tm-video-container video{
+                width: 100%;
+                height:auto;
+            }
+            .nrutya{
+                height: 300px;
+                width:300px;
+            }
+            .ocamp{
+                text-align : center;
+            }
+            .brand-text{
+                font-size:2.5vh;
+            }
+            .parota{
+                padding-right:10px;
+            }
+            .creators{
+                text-align : center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id=nav-placeholder></div>
+    <div class="tm-page-wrap mx-auto">
+        <div class="position-relative">
+            <div class="potition-absolute tm-site-header">
+                <div class="container-fluid position-relative">
+                    <div class="row">
+                        <div class="col-7 col-md-4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="overlay"></div> -->
+            <div class="tm-page-wrap mx-auto">
+                <div class="position-relative">
+                    <div id="tm-video-container">
+                        <div class="overlay"></div>
+                        <video autoplay muted loop id="tm-video">
+                            <source src="video/ACTING.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                </div>
+
+                <!-- Page content -->
+                <section id="section_about">
+                    <div class="container-fluid">
+                        <div class="mx-auto tm-content-container">
+                            <main>
+                                <div class="row mb-3 pb-3">
+                                    <div class="col-xl-8 col-lg-7">
+                                        <div class="tm-video-description-box">
+                                            <h2 class="mb-5 tm-video-title" style="color: rgb(174, 17, 48);">About</h2>
+                                            <p class="mb-4">Acting is an integral part of India's cultural celebrations
+                                                during events like Gokulastami (Krishna Janmashtami). It brings to life
+                                                the stories and legends of Lord Krishna, connecting people with their
+                                                rich cultural heritage and spirituality. These performances, ranging
+                                                from dance dramas to folk theater, not only preserve ancient traditions
+                                                but also showcase India's cultural diversity. They serve as a reminder
+                                                of India's unity in diversity and have a lasting influence on the
+                                                country's entertainment industry, with many films drawing inspiration
+                                                from these cultural narratives. In essence, acting during Gokulastami is
+                                                a dynamic fusion of tradition, artistry, and modernity, celebrating
+                                                India's enduring cultural legacy.</p>
+                                            <p class="mb-4">For interested students to hone their skills in acting,
+                                                play-writing and directing, we have staged 150 skits and 2 full length
+                                                dramas, namely Bon Voyage and Kanchana Seetha, since 2008.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-5" style="border:None">
+                                        <div class="tm-bg-white tm-share-box" style="border:None">
+                                            <img src="img/acting.jpg" class = "nrutya">
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                </section>
+                <div style="padding: 30px;">
+                    
+                    <h2 style="font-weight: bolder; color: rgb(195, 17, 53);">Rules & Regulations</h2>
+                    <hr>
+                    <br>    
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-6 col-sm-12">
+                                <h3 class="tm-text-gray  tm-catalog-item-title">Mime</h3>
+                                <p><span style="color: rgb(188, 17, 51);font-size: larger;">Max event duration :
+                                    </span>5 minutes
+                                </p>
+                                <p><span style="color: rgb(188, 17, 51);font-size: larger;">Max members : </span>6
+                                    members</p>
+                                <p><span style="color: rgb(188, 17, 51);font-size: larger;">Theme: </span>”Life of
+                                    Krishna”</p>
+                                <span style="color: rgb(188, 17, 51);font-size: larger;">Judging Criteria : </span>
+                                <p>qualities like the idea,
+                                    creativity, presentation, use of make-up
+                                    music, and general impression. <span style="color: blue;"> A mix
+                                    of boys and girls is not allowed</span> in the
+                                    performances(Social themes with no dialogue).</p>
+                                <br>
+                                <br>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
+                                <div class="position-relative tm-thumbnail-container">
+                                    <video autoplay muted loop class="img-fluid tm-catalog-item-img">
+                                        <source src="video/mime.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-6 col-sm-12">
+                                <h3 class="tm-text-gray  tm-catalog-item-title">SKIT</h3>
+                                <p style="color: rgb(162, 18, 46);">5 Languages: English, Telugu, Tamil,
+                                    Malayalam & Hindi</p>
+                                <p><span style="color: rgb(188, 17, 51);font-size: larger;">Max event duration :
+                                    </span>8 minutes
+                                </p>
+                                <p><span style="color: rgb(188, 17, 51);font-size: larger;">Max members : </span>6
+                                    members</p>
+                                <p><span style="color: rgb(188, 17, 51);font-size: larger;">Theme: </span>”Lord Krishna”
+                                </p>
+                                <span style="color: rgb(188, 17, 51);font-size: larger;">Judging Criteria : </span></p>
+                                <p>
+                                    Creativity, Entertainment, Theatrical
+                                    Quality</p>
+                                <br>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
+                                <div class="position-relative tm-thumbnail-container">
+                                    <video autoplay muted loop  class="img-fluid tm-catalog-item-img">
+                                        <source src="video/Skit.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div style="text-align:center">
+                        <a href="reg_group_act.html"><button class="register">REGISTER</button></a>
+                    </div>
+                    <hr>
+                </div>
+                
+
+                <section>
+                    
+                    <div style="padding: 30px;">
+                        <hr>
+                        <h2 style="font-weight: 600; color: rgb(195, 17, 53);">VENUE</h2>
+                        <br>
+                        <br>
+                        <p>YET TO BE DECIED</p>
+                        <hr>
+                    </div>
+                    
+                </section>
+                </main>
+                <footer class="site-footer" style="background-color: rgb(22, 21, 21);">
+                    <div class="container">
+                        <div class="row align-items-center">
+
+                            <div class="col-lg-12 col-12 border-bottom pb-5 mb-5">
+                                <div class="d-flex">
+                                    <a href="index.html" class="navbar-brand">
+                                        <i class="bi-bullseye brand-logo"></i>
+                                        <span class="brand-text" style="font-family: 'Dancing Script', cursive;">GOKULASTHAMI</span>
+                                    </a>
+
+                                    <ul class="social-icon ms-auto">
+                                        <li>
+                                            <a href="https://www.facebook.com/AmritaUniversity/" class="social-icon-link bi-facebook"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://www.instagram.com/amrita_university/?hl=en" class="social-icon-link bi-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://www.amrita.edu/contact/" class="social-icon-link bi-geo-alt"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://www.youtube.com/channel/UCVEeVDos5a4S9sMPK4jPUzA" class="social-icon-link bi-youtube"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class = "ocamp"><h4 class="mb-4" style="color: crimson;">Our Campus</h4></div>
+                                <div class="col-lg-7 col-12">
+
+                                    <ul class="footer-menu d-flex flex-wrap">
+
+                                        <li class="footer-menu-item">
+                                            <a href="https://www.amrita.edu/campus/coimbatore/" class="footer-menu-link">Coimbatore</a>
+                                        </li>
+
+                                        <li class="footer-menu-item">
+                                            <a href="https://www.amrita.edu/campus/Amritapuri/" class="footer-menu-link">Amritapuri</a>
+                                        </li>
+
+                                        <li class="footer-menu-item">
+                                            <a href="https://www.amrita.edu/campus/bengaluru/" class="footer-menu-link">Banglore</a>
+                                        </li>
+
+                                        <li class="footer-menu-item">
+                                            <a href="https://www.amrita.edu/campus/Chennai/" class="footer-menu-link">Chennai</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+
+                                <div class="col-lg-5 col-12 ms-lg-auto">
+                                    <div
+                                        class="copyright-text-wrap d-flex align-items-center"><!-- <p class="copyright-text ms-lg-auto me-4 mb-0">Copyright © 2023 Gokulashtami 
+                                                                                                                            <br>All Rights Reserved. 
+                                                                                                                              <br><br>Design: <a title="Gokulashtami" rel="sponsored" href="#" >Sid & Co. </a></p>
+                                                                                                                            <a href="#section_1" class="bi-arrow-up arrow-icon custom-link"></a>
+                                                                                                                        </div>-->
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-12 ">
+                            <div class = "creators"><a href = "dev.html" style = "font-weight : bold">About The Creators</a></div>
+                        </div>
+                    </footer>
+            </div>
+        </div>
+    </div>
+
+    <script src="event_js/jquery-3.4.1.min.js"></script>
+    <script src="event_jsjs/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.tm-likes-box').click(function (e) {
+                e.preventDefault();
+                $(this).toggleClass('tm-liked');
+
+                if ($(this).hasClass('tm-liked')) {
+                    $('#tm-likes-count').html('486 likes');
+                } else {
+                    $('#tm-likes-count').html('485 likes');
+                }
+            });
+        });
+    </script>
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("nav.html");
+        });
+    </script>
+</body>
+
+</html>

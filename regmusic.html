@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!---Coding By CodingLab | www.codinglabweb.com--->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Registration Form in HTML CSS</title>
+    <!---Custom CSS File--->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <header>
+        <div class="header-content">
+          <div class="logo">
+            <img src="images/logo.png" alt="Logo">
+          </div>
+          <div class="form-title">
+            Registration Form
+          </div>
+        </div>
+      </header>
+      
+        <hr>
+
+
+        <form action="" method="post" class="form" id="registration-form">
+          <input type="hidden" name="referringForm" value="regmusic.html">
+        <!-- Your form fields here -->
+          <div class="input-box">
+          <label>Full Name</label>
+          <input type="text" placeholder="Enter full name" name="fullName"/>
+        </div>
+
+
+        <div class="input-box">
+          <label>Roll Number</label>
+          <input type="text" placeholder="CB.XX.U4XXXXXXXX" name="roll_no"/>
+        </div>
+
+        
+        <div class="input-box address">
+          <label>Department</label>
+          <div class="column">
+            <div class="select-box">
+              <select name="department"  required>
+                <option value="" disabled selected>--Select--</option>
+                <option value="CSE">CSE</option>
+                <option value="MECH">MECH</option>
+                <option value="ECE">ECE</option>
+                <option value="EEE">EEE</option>
+                <option value="AIE">AIE</option>
+                <option value="INTEGRATED MSC-MATHS">INTEGRATED MSC-MATHS</option>
+                <option value="INTEGRATED MSC-PHY">INTEGRATED MSC-PHY</option>
+                <option value="INTEGRATED MSC-CHEM">INTEGRATED MSC-CHEM</option>
+                <option value="INTEGRATED MSC-DS">INTEGRATED MSC-DS</option>
+                <option value="BSC-FSN">BSC-FSN</option>
+                <option value="BA-ENG">BA-ENG</option>
+                <option value="AERO">AERO</option>
+                <option value="CIVIL">CIVIL</option>
+                <option value="CHEM">CHEM</option>
+                <option value="ASB">ASB</option>
+                <option value="ASCOM">ASCOM</option>
+                <option value="CYS">CYS</option>
+                <option value="MSW">MSW</option>
+                <option value="AGRI">AGRI</option>
+            </select>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="column">
+          <div class="input-box">
+            <label>Phone Number</label>
+            <input type="text" placeholder="Enter phone number" name="phonenumber"/>
+          </div>
+        </div>
+
+
+        <div class="input-box address">
+          <label>Gender</label>
+          <div class="column">
+              <div class="select-box">
+              <select name="gender">
+                  <option value="" disabled selected>--Select--</option>
+                  <option value="MALE">MALE</option>
+                  <option value="FEMALE">FEMALE</option>
+                  <option value="NOT SAY">NOT SAY</option>
+              </select>
+              </div>
+          </div>
+        </div>
+        <div id="gendererror"></div>
+
+        
+        <div class="input-box address">
+          <label>Category</label>
+          <div class="column">
+            <div class="select-box">
+              <select name="category">
+                <option value="" disabled selected>--Select--</option>
+                <option value="CLASSICAL MUSIC - SOLO">CLASSICAL MUSIC - SOLO</option>
+                <option value="INSTRUMENTAL - PERCUSSION">INSTRUMENTAL - PERCUSSION</option>
+                <option value="INSTRUMENTAL - NON-PERCUSSION">INSTRUMENTAL - NON-PERCUSSION</option>
+                <option value="LIGHT MUSIC">LIGHT MUSIC</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div id="error-messages"></div>
+        <button type="submit">Submit</button>
+        <script src="validation.js"></script>
+        <script src="config.js"></script>
+        <script src="updateforms.js"></script>
+    </form>
+    </section>
+  </body>
+</html>

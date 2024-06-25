@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!---Coding By CodingLab | www.codinglabweb.com--->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Registration Form in HTML CSS</title>
+    <!---Custom CSS File--->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <header>
+        <div class="header-content">
+          <div class="logo">
+            <img src="images/logo.png" alt="Logo">
+          </div>
+          <div class="form-title">
+            Registration Form
+          </div>
+        </div>
+      </header>
+
+      <form action="" method="post" class="form" id="registration-form">
+        <input type="hidden" name="referringForm" value="reg_group_quiz.html">
+        <!-- Your form fields here -->
+        <div id="memberContainer">
+        <template id="member">
+            <h2 id="head" style="align-self: left;">Member </h2>
+            <hr>
+            
+            <div class="input-box">
+            <label>Team Name</label>
+            <input type="text" pattern="^[a-zA-Z1-9].*" placeholder="Enter team name" name="teamName"  required/>
+            </div>
+            <div id="teamerror"></div>
+
+            <div class="input-box">
+            <label>Full Name</label>
+            <input type="text" pattern="[a-zA-Z ]+" placeholder="Enter full name" name="fullName"  required/>
+            </div>
+            <div id="nameerror"></div>
+
+
+            <div class="input-box">
+            <label>Roll Number</label>
+            <input type="text" pattern="^[a-zA-Z1-9].*" placeholder="CB.XX.U4XXXXXXXX" name="roll_no"  required/>
+            </div>
+            <div id="rollnumbererror"></div>
+            
+            <div class="input-box address">
+            <label>Department</label>
+            <div class="column">
+                <div class="select-box">
+                  <select name="department"  required>
+                    <option value="" disabled selected>--Select--</option>
+                    <option value="CSE">CSE</option>
+                    <option value="MECH">MECH</option>
+                    <option value="ECE">ECE</option>
+                    <option value="EEE">EEE</option>
+                    <option value="AIE">AIE</option>
+                    <option value="INTEGRATED MSC-MATHS">INTEGRATED MSC-MATHS</option>
+                    <option value="INTEGRATED MSC-PHY">INTEGRATED MSC-PHY</option>
+                    <option value="INTEGRATED MSC-CHEM">INTEGRATED MSC-CHEM</option>
+                    <option value="INTEGRATED MSC-DS">INTEGRATED MSC-DS</option>
+                    <option value="BSC-FSN">BSC-FSN</option>
+                    <option value="BA-ENG">BA-ENG</option>
+                    <option value="AERO">AERO</option>
+                    <option value="CIVIL">CIVIL</option>
+                    <option value="CHEM">CHEM</option>
+                    <option value="ASB">ASB</option>
+                    <option value="ASCOM">ASCOM</option>
+                    <option value="CYS">CYS</option>
+                    <option value="MSW">MSW</option>
+                    <option value="AGRI">AGRI</option>
+                </select>
+                </div>
+            </div>
+            </div>
+            <div id="departmenterror"></div>
+
+            <div class="column">
+            <div class="input-box">
+                <label>Phone Number</label>
+                <input type="text" pattern="[1-9]{1}[0-9]{9}" placeholder="Enter phone number" name="phonenumber"  required/>
+            </div>
+            </div>
+            <div id="numbererror"></div>
+
+            <div class="input-box address">
+              <label>Gender</label>
+              <div class="column">
+                  <div class="select-box">
+                  <select name="gender"  required>
+                      <option value="" disabled selected>--Select--</option>
+                      <option value="MALE">MALE</option>
+                      <option value="FEMALE">FEMALE</option>
+                      <option value="NOT SAY">NOT SAY</option>
+                  </select>
+                  </div>
+              </div>
+            </div>
+            <div id="gendererror"></div>
+            
+            <div class="input-box address">
+            <label>Category</label>
+            <div class="column">
+                <div class="select-box">
+                <select name="category"  required>
+                    <option value="" disabled selected>--Select--</option>
+                    <option value="QUIZ">QUIZ</option>
+                </select>
+                </div>
+            </div>
+            </div>
+            <div id="categoryerror"></div>
+            <br>
+        </template>
+        </div>
+            
+            <button id="minmembers" type="submit" onclick="mincheck()">Submit</button>
+            
+        </form>
+        <button id="addMember" onclick="addMember()">+ Add Member</button>
+    </section>
+    <script src="validationgroup.js"></script>
+    <script src="template_quiz.js"></script>
+    <script src="updateforms.js"></script>
+    <script src="config.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </body>
+</html>

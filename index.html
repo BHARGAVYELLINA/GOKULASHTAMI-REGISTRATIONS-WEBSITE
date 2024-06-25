@@ -1,0 +1,803 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Gokulashtami 2023</title>
+
+        <!-- CSS FILES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/templatemo-leadership-event.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Tangerine&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <style>
+            body {
+                overflow-x: hidden;
+            }
+            body::-webkit-scrollbar{
+                display: none;
+            }
+            .cards {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+
+            .card {
+                border-radius: 20px;
+                border: none;
+                width: calc(100% - 1rem); /* Adjust card width with some margin */
+                margin: 0.5rem;
+                transition: all 0.5s ease-in-out;
+                max-width: 350px; /* Set a maximum width for the cards */
+            }
+            @media (min-width: 1400px){
+                body {
+                    overflow-x: hidden;
+                }
+            }
+            @media (min-width: 992px) and (max-width:1200px){
+                body {
+                    overflow-x: hidden;
+                }
+            }
+            
+            @media (min-width: 1200px) and (max-width:1400px){
+                .event-colour{
+                    font-size:8vh;
+                }
+                .brand-text{
+                    font-size:8vh;
+                }
+                body{
+                    overflow-x : hidden;
+                }
+                .gokuimg{
+                    width: 700px;
+                    height: 400px;
+                }
+            }
+            @media (min-width: 768px){
+                .event-colour{
+                    font-size:8vh;
+                }
+                .brand-text{
+                    font-size:8vh;
+                }
+                .gokuimg{
+                    width: 650px;
+                    height: 400px;
+                }
+                .card {
+                    width: calc(100% - 1rem); /* Two cards in a row for smaller screens */
+                    overflow-x: hidden;
+                }
+            }
+
+            @media(max-width: 576px){
+                .titl{
+                    font-size : 3vh;
+                }
+                .ocamp{
+                    text-align : center;
+                }
+                .creators{
+                    text-align : center;
+                }
+                .event-colour{
+                    font-size:5vh;
+                }
+                .brand-text{
+                    font-size:5vh;
+                }
+                .gokuimg{
+                    width: 340px;
+                    height: 230px;
+                }
+                .cards{
+                    padding-left : 0px;
+                }
+                .card {
+                    width: 100%; /* One card per row for the smallest screens */
+                    overflow-x: hidden;
+                }
+            }
+            .card:hover {
+                transform: scale(1.1);
+                transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            }
+        </style>
+
+
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <a href="index.html" class="navbar-brand mx-auto mx-lg-0">
+                    
+                    <h2 style="font-family: 'Dancing Script', cursive;text-shadow: 1px 2px white;" class = "titl">
+                        <span style="color :rgb(245, 245, 241)">G</span>
+                        <span style="color : rgb(243, 243, 245)">o</span>
+                        <span style="color : rgb(231, 238, 231)">k</span>
+                        <span style="color: rgb(238, 235, 235)">u</span>
+                        <span style="color: rgb(242, 241, 238)">l</span>
+                        <span style="color: rgb(242, 238, 242)">a</span>
+                        <span style="color: rgb(246, 246, 246)">s</span>
+                        <span style="color:rgb(246, 246, 251)">h</span>
+                        <span style="color: rgb(241, 245, 241)">t</span>
+                        <span style="color :rgb(249, 245, 245)">a</span>
+                        <span style="color: rgb(245, 244, 243)">m</span>
+                        <span style="color:rgb(245, 242, 246)">i</span>
+                        <span style="color:rgb(245, 242, 246)">-</span>
+                        <span style="color:rgb(245, 242, 246)">2</span>
+                        <span style="color:rgb(245, 242, 246)">0</span>
+                        <span style="color:rgb(245, 242, 246)">2</span>
+                        <span style="color:rgb(245, 242, 246)">3</span>
+                    </h2>
+                    
+                </a>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_1">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_2">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_3">Participate</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_4">Schedules</a>
+                        </li>
+
+                    </ul>
+                    <div></div>
+                </nav>
+
+                <main>
+
+                    <section class="hero" id="section_1">
+                        <div class="container">
+                            <div class="row">
+
+                                <div class="col-lg-5 col-12 m-auto">
+                                    <div class="hero-text"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-wrap">
+                            <video autoplay="" loop="" muted="" class="custom-video" poster="">
+                                <source src="vid/Gokulashtami 2019 Celebrations at Amrita Vishwa Vidyapeetham, Coimbatore Campus.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </section>
+
+
+                    <section class="highlight">
+                        <div class="container">
+                            <div class="row">
+
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="highlight-thumb">
+                                        <img src="images/g2017.jpeg" class="highlight-image img-fluid" alt="">
+
+                                        <div class="highlight-info">
+                                            <h3 class="highlight-title">2017 Highlights</h3>
+
+                                            <a href="https://youtu.be/HAfXu2rEocE" class="bi-youtube highlight-icon"></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="highlight-thumb">
+                                        <img src="images/g2k19.jpeg" class="highlight-image img-fluid" alt="">
+
+                                        <div class="highlight-info">
+                                            <h3 class="highlight-title">2019 Highlights</h3>
+
+                                            <a href="https://youtu.be/FCng0Onyb_0" class="bi-youtube highlight-icon"></a>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="highlight-thumb">
+                                        <img src="images/g2022.jpeg" class="highlight-image img-fluid" alt="">
+
+                                        <div class="highlight-info">
+                                            <h3 class="highlight-title">2022 Highlights</h3>
+
+                                            <a href="https://youtu.be/GxEEhmsC6l0" class="bi-youtube highlight-icon"></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <section class="about section-padding" id="section_2">
+                        <div class="container">
+                            <div class="row">
+
+                                <div class="col-lg-10 col-12">
+                                    <h2 class="mb-4" style="font-family: Tangerine; letter-spacing: 5px;">
+                                        <span style="font-size : 15vh;color : rgb(190, 4, 54); text-shadow: 2px 3px 2px rgb(237, 74, 107);letter-spacing: 3px; ">G</span>okulashtami</h2>
+                                </div>
+
+                                <div class="col-lg-6 col-12">
+                                    <h3 class="mb-3">Celebrations at Amrita's Coimbatore Campus</h3>
+
+                                    <p>Reminding of the goal of making oneself and others happy, Gokulashtami was celebrated at Amrita Vishwa Vidyapeetham, Coimbatore campus, with great fervor, enthusiasm and fanfare. On birthday of Sri Krishna, Chancellor Sri Mata Amritanandamayi Devi (Amma) reminds us, “We can transform our lives into an experience of spreading happiness to one and all. Sri Krishna's life was the perfect example of this. If all our infinite, innate auspicious qualities were to take the form of a human being, the beautiful result would be Lord Krishna. He expressed the infinite power inherent in humankind to its fullness.”</p>
+
+                                    <a class="custom-btn custom-border-btn btn custom-link mt-3 me-3" href="#section_3">Participate</a>
+
+                                    <a class="custom-btn btn custom-link mt-3" href="#section_4">Check out Schedule</a>
+                                </div>
+
+                                <div class="col-lg-6 col-12 mt-5 mt-lg-0">
+                                    <img src="images/baner.png" class = "gokuimg">
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <section class="pricing section-padding" id="section_3">
+                        <div class="container">
+                            <div class="row">
+
+                                <div class="col-lg-10 col-12 text-center mx-auto mb-5">
+                                    <h2 style="font-family: Tangerine; letter-spacing: 5px; font-weight: 900;">
+                                        <u class="event-colour">Participate</u>
+                                    </h2>
+                                </div>
+
+
+                                <div class="cards">
+                                    <div class="col-lg-4 col-md-6 col-12 mb-5 mb-lg-0">
+                                        <div class="card">
+                                            <div class="pricing-thumb bg-white shadow-lg">
+
+                                                <a href="Dance.html" target="_blank">
+                                                    <div class="pricing-title-wrap d-flex align-items-center">
+
+                                                        <h4 class="pricing-title text-white mb-0">Dance</h4>
+
+
+                                                    </div>
+
+                                                    <div class="pricing-body" style="background-image: url('images/dance.png'); background-size : cover;">
+                                                        <p>
+                                                            <br>
+                                                        </p>
+
+                                                        <p>
+                                                            <br>
+                                                        </p>
+
+                                                        <p>
+                                                            <br>
+                                                        </p>
+
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 col-12 mb-5 mb-lg-0">
+                                        <div class="card">
+                                            <div class="pricing-thumb bg-white shadow-lg">
+                                                <a href="music.html" target="_blank">
+                                                    <div class="pricing-title-wrap d-flex align-items-center">
+
+                                                        <h4 class="pricing-title text-white mb-0">Music</h4>
+
+
+                                                    </div>
+
+                                                    <div class="pricing-body" style="background-image: url('images/music.jpg'); background-size : cover;">
+                                                        <p>
+                                                            <br>
+                                                        </p>
+
+                                                        <p>
+                                                            <br>
+                                                        </p>
+
+                                                        <p>
+                                                            <br>
+                                                        </p>
+
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 col-12 mb-5 mb-lg-0">
+                                        <div class="card">
+                                            <div class="pricing-thumb bg-white shadow-lg">
+                                                <a href="acting.html" target="_blank">
+                                                    <div class="pricing-title-wrap d-flex align-items-center">
+                                                        <h4 class="pricing-title text-white mb-0">Acting</h4>
+                                                    </div>
+
+                                                    <div class="pricing-body" style="background-image: url('images/acting.jpg'); background-size : cover;">
+                                                        <p>
+                                                            <br>
+                                                        </p>
+
+                                                        <p>
+                                                            <br>
+                                                        </p>
+
+                                                        <p>
+                                                            <br>
+                                                        </p>
+
+
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 col-12 mb-5 mb-lg-0">
+                                        <div class="card">
+                                            <div class="pricing-thumb bg-white shadow-lg">
+                                                <a href="Art.html" target="_blank">
+                                                    <div class="pricing-title-wrap d-flex align-items-center">
+
+                                                        <h4 class="pricing-title text-white mb-0">Arts</h4>
+
+
+                                                    </div>
+
+                                                    <div class="pricing-body" style="background-image: url('images/arts.jpg'); background-size : cover;">
+                                                        <p>
+                                                            <br>
+                                                        </p>
+
+                                                        <p>
+                                                            <br>
+                                                        </p>
+
+                                                        <p>
+                                                            <br>
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-12 mb-5 mb-lg-0">
+                                        <div class="card">
+                                            <div class="pricing-thumb bg-white shadow-lg">
+                                                <a href="Media.html" target="_blank">
+                                                    <div class="pricing-title-wrap d-flex align-items-center">
+
+                                                        <h4 class="pricing-title text-white mb-0">Media</h4>
+
+
+                                                    </div>
+
+                                                    <div class="pricing-body" style="background-image: url('images/media.jpeg'); background-size : cover;">
+                                                        <p>
+                                                            <br>
+                                                        </p>
+
+                                                        <p>
+                                                            <br>
+                                                        </p>
+
+                                                        <p>
+                                                            <br>
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-lg-4 col-md-6 col-12 mb-5 mb-lg-0">
+                                        <div class="card">
+                                            <div class="pricing-thumb bg-white shadow-lg">
+                                                <a href="Litrature.html" target="_blank">
+                                                    <div class="pricing-title-wrap d-flex align-items-center">
+
+                                                        <h4 class="pricing-title text-white mb-0">Literature</h4>
+
+
+                                                    </div>
+
+                                                    <div class="pricing-body" style="background-image: url('images/literature.jpg'); background-size : cover;">
+                                                        <p>
+                                                            <br>
+                                                        </p>
+
+                                                        <p>
+                                                            <br>
+                                                        </p>
+
+                                                        <p>
+                                                            <br>
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-12 mb-5 mb-lg-0">
+                                        <div class="card">
+                                            <div class="pricing-thumb bg-white shadow-lg">
+                                                <a href="Quiz.html" target="_blank">
+                                                    <div class="pricing-title-wrap d-flex align-items-center">
+
+                                                        <h4 class="pricing-title text-white mb-0">Quiz</h4>
+
+
+                                                    </div>
+
+                                                    <div class="pricing-body" style="background-image: url('images/quiz.jpeg'); background-size : cover;">
+                                                        <p>
+                                                            <br>
+                                                        </p>
+
+                                                        <p>
+                                                            <br>
+                                                        </p>
+
+                                                        <p>
+                                                            <br>
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </section>
+
+
+                            <section class="schedule section-padding" id="section_4">
+                                <div class="container">
+                                    <div class="row">
+
+                                        <div class="col-lg-12 col-12">
+                                            <h2 class="mb-5 text-center" style="color: #aa0c51cb;">Schedule for the day.</h2>
+
+                                            <nav>
+                                                <div class="nav nav-tabs align-items-baseline" id="nav-tab" role="tablist">
+                                                    <button class="nav-link active" id="nav-DayOne-tab" data-bs-toggle="tab" data-bs-target="#nav-DayOne" type="button" role="tab" aria-controls="nav-DayOne" aria-selected="true">
+                                                        <h3>
+                                                            <span>Morning</span>
+                                                            <small>September 16, 2023</small>
+                                                        </h3>
+                                                    </button>
+
+                                                    <button class="nav-link" id="nav-DayTwo-tab" data-bs-toggle="tab" data-bs-target="#nav-DayTwo" type="button" role="tab" aria-controls="nav-DayTwo" aria-selected="false">
+                                                        <h3>
+                                                            <span>Afternoon</span>
+                                                            <small>September 16, 2023</small>
+                                                        </h3>
+                                                    </button>
+
+                                                    <button class="nav-link" id="nav-DayThree-tab" data-bs-toggle="tab" data-bs-target="#nav-DayThree" type="button" role="tab" aria-controls="nav-DayThree" aria-selected="false">
+                                                        <h3>
+                                                            <span>Evening</span>
+                                                            <small>September 16, 2023</small>
+                                                        </h3>
+                                                    </button>
+
+                                                    <button class="nav-link" id="nav-DayFour-tab" data-bs-toggle="tab" data-bs-target="#nav-DayFour" type="button" role="tab" aria-controls="nav-DayFour" aria-selected="false">
+                                                        <h3>
+                                                            <span>Night</span>
+                                                            <small>September 16, 2023</small>
+                                                        </h3>
+                                                    </button>
+                                                </div>
+                                            </nav>
+
+                                            <div class="tab-content mt-5" id="nav-tabContent">
+                                                <div class="tab-pane fade show active" id="nav-DayOne" role="tabpanel" aria-labelledby="nav-DayOne-tab">
+                                                    <div class="row border-bottom pb-5 mb-5">
+                                                        <div class="col-lg-4 col-12">
+                                                            <img src="images/dig1.jpeg" class="schedule-image img-fluid" alt="">
+                                                        </div>
+
+                                                        <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+
+                                                            <h4 class="mb-2">Rituals peformed by Dignataries.</h4>
+
+                                                            <p>Sahasranama Archana followed by Nagara Sankeerthana wherein a group of students and faculty across campus singing Lord Krishna's glory.</p>
+
+                                                            <div class="d-flex align-items-center mt-4">
+                                                                <div class="avatar-group d-flex"></div>
+
+            
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="row border-bottom pb-5 mb-5">
+                                                        <div class="col-lg-4 col-12">
+                                                            <img src="images/marching2.jpeg" class="schedule-image img-fluid" alt="">
+                                                        </div>
+
+                                                        <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+                                                            <h4 class="mb-2">Marching of Floats.</h4>
+
+                                                            <p>Richly decorated floats, grandly Marching, depicting various stages from the life of Sri Krishna. Accompanied by girls and boys dressed as Krishnas and Gopikas, the floats goes around the campus, stopping at various points, where students sang and danced.
+                                                            </p>
+
+                                                            <div class="d-flex align-items-center mt-4">
+                                                                <div class="avatar-group d-flex"></div>
+
+                              
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="row">
+                                                        <div class="col-lg-4 col-12">
+                                                            <img src="images/prasad3.jpeg" class="schedule-image img-fluid" alt="">
+                                                        </div>
+
+                                                        <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+                                                            <h4 class="mb-2">Prasadam disribution.</h4>
+
+                                                            <p>As always Swamiji distribute “Prasadam” for entire Amritians.</p>
+
+                                                            <div class="d-flex align-items-center mt-4">
+                                                                <div class="avatar-group d-flex">
+
+
+                                                                    <div class="ms-3">
+
+                                                                        <p class="speakers-text mb-0"><!--Startup Coach--></p>
+                                                                    </div>
+                                                                </div>
+
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="tab-pane fade" id="nav-DayTwo" role="tabpanel" aria-labelledby="nav-DayTwo-tab">
+                                                    <div class="row border-bottom pb-5 mb-5">
+                                                        <div class="col-lg-4 col-12">
+                                                            <img src="images/cul4.jpeg" class="schedule-image img-fluid" alt="">
+                                                        </div>
+
+                                                        <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+
+                                                            <h4 class="mb-2">Finals of Cultural Competion.</h4>
+
+                                                            <p>students participated in various competitions like dance, music, skit, quiz, elocution, painting and Rangoli, all on the theme of Sri Krishna.</p>
+
+                                                            <div class="d-flex align-items-center mt-4">
+                                                                <div class="avatar-group d-flex"></div>
+
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="row">
+                                                        <div class="col-lg-4 col-12">
+                                                            <img src="images/sport5.jpeg" class="schedule-image img-fluid" alt="">
+                                                        </div>
+
+                                                        <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+                                                            <h4 class="mb-2">Sports activities.</h4>
+
+                                                            <p>The students, faculty and entire Amrita fraternity stand in a spellbound while watching the Uriyadi and Pole-climbing.</p>
+
+                                                            <div class="d-flex align-items-center mt-4">
+                                                                <div class="avatar-group d-flex"></div>
+
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="tab-pane fade" id="nav-DayThree" role="tabpanel" aria-labelledby="nav-DayThree-tab">
+                                                    <div class="row border-bottom pb-5 mb-5">
+                                                        <div class="col-lg-4 col-12">
+                                                            <img src="images/cul6.jpeg" class="schedule-image img-fluid" alt="">
+                                                        </div>
+
+                                                        <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+
+                                                            <h4 class="mb-2">Prize Distribution of culturals and sports.</h4>
+
+                                                            <p>Students reciving their certificates and momentos according to the events participated.</p>
+
+                                                            <div class="d-flex align-items-center mt-4">
+                                                                <div class="avatar-group d-flex"></div>
+
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="row">
+                                                        <div class="col-lg-4 col-12">
+                                                            <img src="images/announce7.jpg" class="schedule-image img-fluid" alt="">
+                                                        </div>
+
+                                                        <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+                                                            <h4 class="mb-2">Announcement of Winning Branch/Department.</h4>
+
+                                                            <p>Winning Branch/Department lifts the Trophy with all the grace and progressing towards Closing Ceremony.</p>
+
+                                                            <div class="d-flex align-items-center mt-4">
+                                                                <div class="avatar-group d-flex"></div>
+
+                                                               
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="tab-pane fade" id="nav-DayFour" role="tabpanel" aria-labelledby="nav-DayFour-tab">
+                                                    <div class="row">
+                                                        <div class="col-lg-4 col-12">
+                                                            <img src="images/party8.jpeg" class="schedule-image img-fluid" alt="">
+                                                        </div>
+
+                                                        <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+                                                            <h4 class="mb-2">After Party at the fullest</h4>
+
+                                                            <p>Clebrations by Winnig Branch/Department in the Whole Campus.</p>
+
+                                                            <div class="d-flex align-items-center mt-4">
+
+                                                               
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </section>
+
+                            <section class="call-to-action section-padding">
+                                <div class="container">
+                                    <div class="row align-items-center">
+
+                                        <div class="col-lg-7 col-12">
+                                            <h2 class="text-white mb-4">Become part of
+                                                <p class="event-colour" style="font-family: 'Dancing Script', cursive;">
+                                                    GOKULASHTAMI</p>
+                                            </h2>
+
+                                            <p class="text-white">Showcase your tallents and skills.</p>
+                                        </div>
+
+                                        <div class="col-lg-3 col-12 ms-lg-auto mt-4 mt-lg-0">
+                                            <a href="#section_3" class="custom-btn btn">Register Today</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </section>
+
+
+                        </main>
+
+                        <footer class="site-footer" style="background-color: rgb(22, 21, 21);">
+                            <div class="container">
+                                <div class="row align-items-center">
+
+                                    <div class="col-lg-12 col-12 border-bottom pb-5 mb-5">
+                                        <div class="d-flex">
+                                            <a href="index.html" class="navbar-brand">
+                                                <i class="bi-bullseye brand-logo"></i>
+                                                <span class="brand-text" style="font-family: 'Dancing Script', cursive;">GOKULASTHAMI</span>
+                                            </a>
+                                            
+
+                                            <ul class="social-icon ms-auto">
+                                                <li>
+                                                    <a href="https://www.facebook.com/AmritaUniversity/" class="social-icon-link bi-facebook"></a>
+                                                </li>
+
+                                                <li>
+                                                    <a href="https://www.instagram.com/amrita_university/?hl=en" class="social-icon-link bi-instagram"></a>
+                                                </li>
+
+                                                <li>
+                                                    <a href="https://www.amrita.edu/contact/" class="social-icon-link bi-geo-alt"></a>
+                                                </li>
+
+                                                <li>
+                                                    <a href="https://www.youtube.com/channel/UCVEeVDos5a4S9sMPK4jPUzA" class="social-icon-link bi-youtube"></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class = "ocamp"><h4 class="mb-4" style="color: crimson;">Our Campus</h4></div>
+                                        <div class="col-lg-7 col-12">
+
+                                            <ul class="footer-menu d-flex flex-wrap">
+
+                                                <li class="footer-menu-item">
+                                                    <a href="https://www.amrita.edu/campus/coimbatore/" class="footer-menu-link">Coimbatore</a>
+                                                </li>
+
+                                                <li class="footer-menu-item">
+                                                    <a href="https://www.amrita.edu/campus/Amritapuri/" class="footer-menu-link">Amritapuri</a>
+                                                </li>
+
+                                                <li class="footer-menu-item">
+                                                    <a href="https://www.amrita.edu/campus/bengaluru/" class="footer-menu-link">Banglore</a>
+                                                </li>
+
+                                                <li class="footer-menu-item">
+                                                    <a href="https://www.amrita.edu/campus/Chennai/" class="footer-menu-link">Chennai</a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+
+                                        <br><br>
+                                        <div class="col-lg-5 col-12 ">
+                                            <div class = "creators"><a href = "dev.html" style = "font-weight : bold">About The Creators</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </footer>
+
+                            <script src="js/jquery.min.js"></script>
+                            <script src="js/bootstrap.min.js"></script>
+                            <script src="js/jquery.sticky.js"></script>
+                            <script src="js/click-scroll.js"></script>
+                            <script src="js/custom.js"></script>
+
+                        </body>
+                    </html>

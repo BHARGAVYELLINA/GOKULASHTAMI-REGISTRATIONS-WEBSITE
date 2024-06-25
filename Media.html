@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <!-- https://fonts.google.com/ -->
+    <link rel="stylesheet" href="eventcss/eventbootstrap.min.css">
+    <link rel="stylesheet" href="eventcss/eventcatalog.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <style>
+        .overlay {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index: 2;
+            background: black;
+            opacity: 0.5;
+        }
+
+        .register {
+            width: 200px;
+            height: 50px;
+            background-color: crimson;
+            color: white;
+            font-weight: bold;
+            border-radius: 30px;
+            border: none;
+        }
+
+        .register:hover {
+            background-color: rgb(136, 11, 36);
+        }
+
+        @media(min-width:768px){
+            .nrutya{
+                display: flex; 
+                height:425px;
+                width:450px;
+            }
+            .brand-text{
+                font-size:8vh;
+            }
+        }
+        @media(max-width:576px){
+            #tm-video-container{
+                width : 100%;
+                height:auto;
+            }
+            #tm-video-container video{
+                width: 100%;
+                height:auto;
+            }
+            .nrutya{
+                height: 300px;
+                width:300px;
+            }
+            .creators{
+                text-align : center;
+            }
+            .ocamp{
+                text-align : center;
+            }
+            .brand-text{
+                font-size:2.5vh;
+            }
+            .parota{
+                padding-right:10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id=nav-placeholder></div>
+    <div class="tm-page-wrap mx-auto">
+        <div class="position-relative">
+            <div class="potition-absolute tm-site-header">
+                <div class="container-fluid position-relative">
+                    <div class="row">
+                        <div class="col-7 col-md-4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="overlay"></div> -->
+            <div class="tm-page-wrap mx-auto">
+                <div class="position-relative">
+                    <div id="tm-video-container">
+                        <div class="overlay"></div>
+                        <video autoplay muted loop id="tm-video">
+                            <source src="video/MEDIA.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <i id="tm-video-control-button" class="fas fa-pause"></i>
+                </div>
+
+                <!-- Page content -->
+                <section id="section_about">
+                    <div class="container-fluid">
+                        <div class="mx-auto tm-content-container">
+                            <main>
+                                <div class="row mb-5 pb-5">
+                                    <div class="col-xl-8 col-lg-7">
+                                        <div class="tm-video-description-box">
+                                            <h2 class="mb-5 tm-video-title" style="color: rgb(174, 17, 48);">About</h2>
+                                            <p class="mb-4">India has the most ancient tradition in theatre which goes
+                                                back to 5,000 years ago. The earliest theatre form of India can be
+                                                traced back to the Sanskrit theatre. Across centuries, many forms of
+                                                Indian theatre abound. They can be broadly classified into six different
+                                                genres: Classical Indian Dance Drama, Traditional Indian Theatre, Indian
+                                                Folk Theatre, Indian Puppet Theatre, Modern Indian Theatre and Indian
+                                                Street Theatre.</p>
+                                            <p class="mb-4">for interested students to hone their skills in acting,
+                                                play-writing and directing, we have staged 150 skits and 2 full length
+                                                dramas, namely Bon Voyage and Kanchana Seetha, since 2008.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-5">
+                                        <div class="tm-bg-white tm-share-box" style="border:None">
+
+                                            <img src="img/medai.jpg" class = "nrutya">
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                </section>
+                <div style="padding: 30px;">
+                    <hr>
+                    <h2 style="font-weight: bolder; color: rgb(195, 17, 53);">Rules & Regulations</h2>
+                    <br>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-6 col-sm-12">
+                    <!-- <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item"> -->
+                    <h4 class="tm-text-gray  tm-catalog-item-title">Spot Photography</h4>
+                    <p><span style="color: rgb(188, 17, 51);font-size: larger;">Max event duration : </span>2 hours</p>
+                    <span style="color: rgb(188, 17, 51);font-size: larger;">Instructions & Judging Criteria : </span>
+                    <p>1. Participants should have their own digital camera or Mobile phone.</p>
+                    <p> 2. Pictures clicked with a mobile phone or a DSLR cam where more than one participant is
+                        disqualified. </p>
+                    <p>3. Theme: Will be announced one hour before at the registration desk</p>
+                    <p>4. The participant will have to submit his/her best 2 pictures (theme based) on or before the
+                        stipulated time at the registration desk. </p>
+                    <p>5. Submissions will not be accepted once the deadline lapses.</p>
+                    <p>6. Photos submitted Images should be no larger than 4MB. Photos must be in JPEG format.</p>
+                    <p>7. You are required to provide a unique title & description for each image submitted.</p>
+                    <p>8. All submitted photos must contain the original EXIF metadata information. However, there
+                        must be no border(s), logo(s), copyright marks, identifying marks, or any other visible
+                        references and/or marks on the image.</p>
+                    <p>9. Basic editing, including color enhancement, the use of filters, and cropping of the Photo(s)
+                        is
+                        acceptable, provided any such editing does not affect the authenticity and/or genuineness of the
+                        Photo(s).</p>
+                    <p>10. Advanced editing is used to create illusions, deceptions, and/or manipulations, and the
+                        adding and removing of significant elements within the frame is prohibited.</p>
+                    <p>11. Objectionable pictures portraying nudity, pictures with the potential threat to communal
+                        harmony, OR pictures outraging the modesty of women or children shall be considered for
+                        disqualification without any intimation to the participants.</p>
+                    <p>Creativity: 50%, Thematic photographs - 50%</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
+                    <div class="position-relative tm-thumbnail-container">
+                        <video autoplay muted loop class="img-fluid tm-catalog-item-img">
+                            <source src="video/Photography.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <hr>
+                    <div style="text-align:center">
+                        <a href="regmedia.html"><button class="register">REGISTER</button></a>
+                    </div>
+                    <hr>
+                
+                    
+                    <br>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-6 col-sm-12">
+                    <h3 class="tm-text-gray  tm-catalog-item-title">Short Film Making - Krishna Charith</h3>
+                    <p><span style="color: rgb(188, 17, 51);font-size: larger;">Max event duration : </span>6 minutes
+                    </p>
+                    <p><span style="color: rgb(188, 17, 51);font-size: larger;">Instructions : </span></p>
+                    <p>1.Films may be in any language or have no dialogue at all. Non-English language films should have
+                        subtitles.</p>
+                    <p>2.. Ensure that all content in your film (including footage, music, images, props, etc.) is your
+                        own.
+                        If you include any copyrighted or trademarked content, you must be able to provide written
+                        permission for its use. Entries containing any unauthorized content will be disqualified.</p>
+                    <p>3.Religious-political-gender abuse through films without proper justification will not be
+                        encouraged. If any such content is noticed judges can disqualify the films from the competition.
+                    </p>
+                    <p>4.All entries must be submitted in MP4 format (including uploading of the short film and 2
+                        posters) in one drive on or before 13 September 2023, 6 pm. They must share the file to
+                        atkc23@cb.amrita.edu
+                    </p>
+                    <p>5.Film could be shot on any device (mobile or professional camera) not compromising on the HD
+                        quality.</p>
+                    <span style="color: rgb(188, 17, 51);font-size: larger;">Judging Criteria : </span></p>
+                    <p> Direction (20%), Script (20%), Camera & creativity
+                        (20%), acting (20%), Overall coordination (10%)</p>
+                    <span style="color: rgb(188, 17, 51);font-size: larger;"> All entrants should adhere to the
+                        following guidelines:</span></p>
+                    <p>Theme: Should be based on any sloka or messages from Bhagavad Geetha in the contemporary 
+                        context. Your short film should have a story to say and a message to share with the audience which
+                        could make them change in a positive way. For any queries contact: atkc23@cb.amrita.edu</p>
+                    <br>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
+                        <div class="position-relative tm-thumbnail-container">
+                            <video autoplay muted loop class="img-fluid tm-catalog-item-img">
+                                <source src="video/shortfilm.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    <hr>
+                    <div style="text-align:center">
+                        <a href="reg_group_shortfilm.html"><button class="register">REGISTER</button></a>
+                    </div>
+                    <hr>
+                </div>
+                
+                <section>
+                    
+                    <div style="padding: 30px;">
+                        <hr>
+                        <h2 style="font-weight: 600; color: rgb(195, 17, 53);">VENUE</h2>
+                        <br>
+                        <br>
+                        <p>YET TO BE DECIED</p>
+                        <hr>
+                    </div>
+                    
+                </section>
+                </main>
+                <footer class="site-footer" style="background-color: rgb(22, 21, 21);">
+                    <div class="container">
+                        <div class="row align-items-center">
+
+                            <div class="col-lg-12 col-12 border-bottom pb-5 mb-5">
+                                <div class="d-flex">
+                                    <a href="index.html" class="navbar-brand">
+                                        <i class="bi-bullseye brand-logo"></i>
+                                        <span class="brand-text" style="font-family: 'Dancing Script', cursive;">GOKULASTHAMI</span>
+                                    </a>
+
+                                    <ul class="social-icon ms-auto">
+                                        <li>
+                                            <a href="https://www.facebook.com/AmritaUniversity/" class="social-icon-link bi-facebook"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://www.instagram.com/amrita_university/?hl=en" class="social-icon-link bi-instagram"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://www.amrita.edu/contact/" class="social-icon-link bi-geo-alt"></a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://www.youtube.com/channel/UCVEeVDos5a4S9sMPK4jPUzA" class="social-icon-link bi-youtube"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class = "ocamp"><h4 class="mb-4" style="color: crimson;">Our Campus</h4></div>
+                                <div class="col-lg-7 col-12">
+
+                                    <ul class="footer-menu d-flex flex-wrap">
+
+                                        <li class="footer-menu-item">
+                                            <a href="https://www.amrita.edu/campus/coimbatore/" class="footer-menu-link">Coimbatore</a>
+                                        </li>
+
+                                        <li class="footer-menu-item">
+                                            <a href="https://www.amrita.edu/campus/Amritapuri/" class="footer-menu-link">Amritapuri</a>
+                                        </li>
+
+                                        <li class="footer-menu-item">
+                                            <a href="https://www.amrita.edu/campus/bengaluru/" class="footer-menu-link">Banglore</a>
+                                        </li>
+
+                                        <li class="footer-menu-item">
+                                            <a href="https://www.amrita.edu/campus/Chennai/" class="footer-menu-link">Chennai</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+
+                                    
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-12 ">
+                            <div class = "creators"><a href = "dev.html" style = "font-weight : bold">About The Creators</a></div>
+                        </div>
+                    </footer>
+            </div>
+        </div>
+    </div>
+
+    <script src="event_js/jquery-3.4.1.min.js"></script>
+    <script src="event_jsjs/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.tm-likes-box').click(function (e) {
+                e.preventDefault();
+                $(this).toggleClass('tm-liked');
+
+                if ($(this).hasClass('tm-liked')) {
+                    $('#tm-likes-count').html('486 likes');
+                } else {
+                    $('#tm-likes-count').html('485 likes');
+                }
+            });
+        });
+    </script>
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("nav.html");
+        });
+    </script>
+</body>
+
+</html>
